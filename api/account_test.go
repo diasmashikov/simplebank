@@ -129,3 +129,4 @@ func requireBodyMatchAccount(t *testing.T, body *bytes.Buffer, account db.Accoun
 	require.NoError(t, err)
 	require.Equal(t, account, gotAccount)
 }
+
